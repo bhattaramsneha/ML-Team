@@ -20,7 +20,7 @@ try:
     #To encrytp the login and other methods
     mail.starttls()
 
-    mail.login('sneha.bhattaram@imaginea.com', 'Nag&bvl@12')
+    mail.login('sneha.bhattaram@imaginea.com', '********')
 
     mail.sendmail('sneha.bhattaram@imaginea.com','sneha.bhattaram@imaginea.com',message)
 
